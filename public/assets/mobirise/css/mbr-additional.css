@@ -1495,7 +1495,7 @@ a {
   text-align: right;
 }
 .cid-uYaDZ6VegT .mbr-section-title {
-  text-align: right;
+  text-align: left;
   color: #ffffff;
 }
 .cid-uYaLQRll2V {
@@ -1722,8 +1722,8 @@ a {
   max-width: 800px;
 }
 .cid-uYBgyIZIie {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
   background-color: #000000;
 }
 .cid-uYBgyIZIie .social-row {
@@ -2517,8 +2517,8 @@ a {
   background-color: #ffffff;
 }
 .cid-uYBgyIZIie {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
   background-color: #000000;
 }
 .cid-uYBgyIZIie .social-row {
@@ -3194,8 +3194,8 @@ a {
   background-color: #ffffff;
 }
 .cid-uYBgyIZIie {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
   background-color: #000000;
 }
 .cid-uYBgyIZIie .social-row {
@@ -4002,8 +4002,8 @@ a {
   color: #000000;
 }
 .cid-uYBgyIZIie {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
   background-color: #000000;
 }
 .cid-uYBgyIZIie .social-row {
@@ -4823,7 +4823,7 @@ a {
   top: 0;
 }
 .cid-uYBgyIZIie {
-  padding-top: 3rem;
+  padding-top: 7rem;
   padding-bottom: 3rem;
   background-color: #000000;
 }
@@ -5454,7 +5454,7 @@ a {
   }
 }
 .cid-uYBgyIZIie {
-  padding-top: 3rem;
+  padding-top: 7rem;
   padding-bottom: 3rem;
   background-color: #000000;
 }
@@ -5469,7 +5469,7 @@ a {
 }
 .cid-uYBgyIZIie .social-row .soc-item a:hover .mbr-iconfont,
 .cid-uYBgyIZIie .social-row .soc-item a:focus .mbr-iconfont {
-  background-color: #000000;
+  background-color: #f7f7f7;
 }
 .cid-uYBgyIZIie .social-row .soc-item a .mbr-iconfont {
   width: 72px;
