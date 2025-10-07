@@ -3,23 +3,22 @@ const path = require('path');
 const compression = require('compression');
 
 const app = express();
-const PORT = process.env.PORT || 3000; // Render подставит свой порт
+const PORT = process.env.PORT || 3000;
 
-// Сжатие ответов
+// Сжатие
 app.use(compression());
 
-// Проверка, что сервер жив
+// health-check для Render
 app.get('/health', (req, res) => res.status(200).send('OK'));
 
-// Раздаём статику из папки /public
+// Отдаём статику из /public
 app.use(express.static(path.join(__dirname, 'public')));
 
-// ✅ Фолбэк для любых других маршрутов (Express 5 совместимый)
-app.get('/*', (req, res) => {
+// ✅ Catch-all для SPA (Express 5 + path-to-regexp v6)
+app.get('/:path(.*)', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Запуск сервера
 app.listen(PORT, () => {
   console.log(`ION site is running at http://localhost:${PORT}`);
 });
